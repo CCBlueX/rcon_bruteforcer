@@ -1,0 +1,9 @@
+[package]
+name = "rcon_bruteforcer"
+version = "0.1.0"
+authors = ["Kawaii Neko Lolis <marco@ccbluex.net>"]
+edition = "2018"
+
+[dependencies]
+console = "0.9.1"
+rcon = "0.1.0"
