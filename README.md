@@ -1,17 +1,23 @@
 # RCON Bruteforcer
-Allows you to bruteforce any rcon based server
+Allows you to bruteforce minecraft rcon server as quick as possible.
+
+## Reminder
+This is nothing to be used in the real world and a reminder to disable RCON.
+RCON is a very vulnerable way of accessing your server.
+Please access your server over a Dashboard or SSH into your server.
 
 ## Getting Started
-Download a wordlist or generate one by yourself (using [crunch](https://github.com/crunchsec/crunch) as example)
-
 Download latest binary from [releases](https://github.com/CCBlueX/RconBruteforcer/releases).\
-Execute binary: `./rcon-bruteforce [server] [dictionary]`
+Execute binary: `./rcon-bruteforce [server]`
 
 ## Libraries
+* [Tokio](https://crates.io/crates/tokio) - The IO async library
+* [Futures](https://crates.io/crates/futures) - The future stream library
+* [Bruteforce](https://crates.io/crates/bruteforce) - The password generator
 * [Console](https://crates.io/crates/console) - The ANSI console library
 * [Rcon](https://crates.io/crates/rcon) - The rcon connection library
 
 ## Authors
-* **Kawaii Neko Lolis** - [GitHub](https://github.com/Marco09MC) / [Twitter](https://twitter.com/Marco_09MC)
+* **kawaiinekololis** - [GitHub](https://github.com/kawaiinekololis) / [Twitter](https://twitter.com/kawaiinekololis)
 
 See also the list of [contributors](https://github.com/CCBlueX/RconBruteforcer/contributors) who participated in this project.
