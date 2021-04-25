@@ -2,13 +2,14 @@
 Allows you to bruteforce minecraft rcon server as quick as possible.
 
 ## Reminder
-This is nothing to be used in the real world and a reminder to disable RCON.
-RCON is a very vulnerable way of accessing your server.
+This is nothing to be used in the real world and a reminder to disable RCON.\
+RCON is a very vulnerable way of accessing your server.\
 Please access your server over a Dashboard or SSH into your server.
 
 ## Getting Started
-Download latest binary from [releases](https://github.com/CCBlueX/RconBruteforcer/releases).\
-Execute binary: `./rcon-bruteforce [server]`
+Download latest binary from [releases](https://github.com/CCBlueX/RconBruteforcer/releases) or from the lastest commit.\
+Execute binary: `./rcon_bruteforcer [127.0.0.1:25575]`\
+View help: `./rcon_bruteforcer --help`
 
 ## Libraries
 * [Tokio](https://crates.io/crates/tokio) - The IO async library
