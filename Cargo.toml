@@ -6,4 +6,4 @@ edition = "2018"
 
 [dependencies]
 console = "0.9.1"
-rcon = "0.1.0"
+rcon = "0.3.1"
