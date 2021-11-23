@@ -9,7 +9,7 @@ tokio = { version = "1.0.0", features = ["full"] }
 futures = "0.3"
 bruteforce = "0.2.0"
 console = "0.14.1"
-rcon = "0.4.0"
+rcon = "0.5.2"
 
 [dependencies.clap]
 version = "2.33"
