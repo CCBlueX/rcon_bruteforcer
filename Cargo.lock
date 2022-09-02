@@ -36,9 +36,9 @@ checksum = "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693"
 
 [[package]]
 name = "bruteforce"
-version = "0.2.0"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "09edc75a503f874d56d7b38f01c88c3852deea3e5f93c7afea97e85b385fe30d"
+checksum = "cc553dba664ca53a0fa77babe08597539715949bc24aa39519ddecfd415a9909"
 dependencies = [
  "bruteforce-macros",
  "no-std-compat",
@@ -46,9 +46,9 @@ dependencies = [
 
 [[package]]
 name = "bruteforce-macros"
-version = "0.2.0"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f9061159b4b251892dfc59fa0f5c1ca2a63f16cfbd71d863985a07ea0b64f983"
+checksum = "f06f26040d579cc4017ced69bcd47a63f4b1f076f94c7bbae97df359ed61adfd"
 dependencies = [
  "no-std-compat",
  "quote",
@@ -285,9 +285,9 @@ dependencies = [
 
 [[package]]
 name = "no-std-compat"
-version = "0.3.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "55ed2a9e4507ff8c8e5c99395c86b9959aa0ba583321bd21d1feb742bf0baba2"
+checksum = "b93853da6d84c2e3c7d730d6473e8817692dd89be387eb01b94d7f108ecb5b8c"
 
 [[package]]
 name = "ntapi"
@@ -389,18 +389,18 @@ checksum = "bc881b2c22681370c6a780e47af9840ef841837bc98118431d4e1868bd0c1086"
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.26"
+version = "1.0.43"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a152013215dca273577e18d2bf00fa862b89b24169fb78c4c95aeb07992c9cec"
+checksum = "0a2ca2c61bc9f3d74d2886294ab7b9853abd9c1ad903a3ac7815c58989bb7bab"
 dependencies = [
- "unicode-xid",
+ "unicode-ident",
 ]
 
 [[package]]
 name = "quote"
-version = "1.0.9"
+version = "1.0.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7"
+checksum = "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179"
 dependencies = [
  "proc-macro2",
 ]
@@ -562,6 +562,12 @@ dependencies = [
  "quote",
  "syn",
 ]
+
+[[package]]
+name = "unicode-ident"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf"
 
 [[package]]
 name = "unicode-width"
